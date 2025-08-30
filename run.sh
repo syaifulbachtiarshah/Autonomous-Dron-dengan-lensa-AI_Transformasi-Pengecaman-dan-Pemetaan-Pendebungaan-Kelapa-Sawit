@@ -10,3 +10,5 @@ source venv/bin/activate
 
 # Jalan main program (ubah kalau lain)
 python main.py
+chmod +x run.sh
+./run.sh
