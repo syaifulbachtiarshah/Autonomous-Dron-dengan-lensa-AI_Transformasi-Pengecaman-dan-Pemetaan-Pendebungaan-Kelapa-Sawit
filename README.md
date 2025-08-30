@@ -1,14 +1,35 @@
-# Autonomous-Dron-dengan-lensa-AI_Transformasi-Pengecaman-dan-Pemetaan-Pendebungaan-Kelapa-Sawit
-AI Drone sistem: detect debunga sawit via kamera, simpan ke MicroSD, auto-upload gambar alert ke Google Drive &amp; push notifikasi ke Telegram + log Google Sheets. Lokasi pokok direkod (lat/long) &amp; mapping KML harian utk Google Earth.
+# 🚁 Drone AI – Smart Pollination & Corrosion Detection
 
-Intro projek (AI-Drone untuk pemetaan & pengecaman pendebungaan kelapa sawit).
+## 📌 Projek Overview
+Projek ini membangunkan sistem **AI + Drone** menggunakan:
+- 🛠 **Raspberry Pi 5** + Coral TPU
+- 🎥 **SIYI Mini A8 4K Camera**
+- 📡 **Skydroid H12 Pro Controller**
+- 🔎 AI Model: Object detection untuk **pollen recognition** & **corrosion detection**
 
-Hardware digunakan: Raspberry Pi 5, CUAV flight controller, SIYI Mini A8 camera, RPLIDAR C1, Skydroid H12 Pro.
+Drone ini digunakan untuk **offshore rig inspection** & **smart palm pollination surveillance**.
 
-Software stack: Python 3.11, OpenCV, YOLOv8, Roboflow, LeafletJS, Telegram API, Google Drive API.
+---
 
-Installation guide: clone repo → python3 -m venv venv → pip install -r requirements.txt.
+## 🔧 Features
+- ✅ Real-time object detection (YOLO model via Roboflow)
+- ✅ Auto alert → Telegram + Google Sheets logging
+- ✅ KML geo-mapping (Google Earth + Leaflet viewer)
+- ✅ Drone autonomous flight (CUAV + RPLIDAR obstacle avoidance)
 
-Run: python src/main.py.
+---
 
-Output: Alert ke Telegram + Gambar simpan ke Drive + KML update + Viewer map.
+## 📂 Folder Structure
+├── ai_models/ # Model .pt / .tflite files
+├── drone_scripts/ # Python codes for AI inference & drone integration
+├── data/ # Sample datasets / logs
+├── .github/workflows/ # CI/CD (Lint + Test)
+└── README.md
+
+---
+
+## 🚀 Getting Started
+### Clone repo:
+```bash
+git clone https://github.com/<username>/<repo>.git
+cd <repo>
