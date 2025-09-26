@@ -1,0 +1,10 @@
+picamera2
+opencv-python
+requests
+pillow
+inference       # kalau nak self-hosted inference
+python-telegram-bot
+simplekml
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
