@@ -1,0 +1,5 @@
+{
+  "api_key": "YOUR_API_KEY",
+  "model_url": "https://detect.roboflow.com/palm-fruit-detection/2",
+  "confidence_threshold": 0.5
+}
